@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #FFFFFF;
+  background-image: url("../img/blue_with_man_2.jpg");
+  background-color: #273045;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+main {
+  height: 60%;
+}
+
+section {
+  background-color: #273045;
+  opacity: .75;
+  padding: 1%;
+  height: 100%;
+}
