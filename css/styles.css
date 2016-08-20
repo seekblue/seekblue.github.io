@@ -5,16 +5,7 @@ html {
 body {
   height: 100%;
   color: #FFFFFF;
-  /*background-image: url("../images/blue_people.jpg");*/
-  /*background-image: url("../images/blue_plateau.jpg");*/
-  /*background-image: url("../images/blue_sea.jpg");*/
-  /*background-image: url("../images/blue_with_man.jpg");*/
-  /*background-image: url("../images/milky_way_night.jpg");*/
   background-image: url("../img/mountain_reflection.jpg");
-  /*background-image: url("../images/sky_reflection.jpg");*/
-  /*background-image: url("../images/purple_sky_city.jpg");*/
-  /*background-image: url("../images/light_mountain_reflection.jpg");*/
-  /*background-image: url("../img/blue_with_man_2.jpg");*/
   background-color: #273045;
   background-size: cover;
   background-attachment: fixed;
@@ -27,15 +18,31 @@ header {
   justify-content: flex-end;
 }
 
+ul {
+  list-style-type: disc;
+}
+
+h1 {
+  color: #204BAD;
+  font-family: 'Ovo', serif;
+  font-variant: small-caps;
+}
+
+h4 {
+  font-family: 'Ovo', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 main {
   height: 54%;
 }
 
 section {
   background: linear-gradient(0deg, rgba(39, 48, 69, .2), rgba(39, 48, 69, .8));
-  /*background-color: #273045;*/
-  /*opacity: .75;*/
-  padding: 1%;
+  padding: 2%;
   height: 100%;
 }
 
