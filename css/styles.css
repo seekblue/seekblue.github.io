@@ -1,9 +1,11 @@
 html {
   height: 100%;
+  width: 100%;
 }
 
 body {
   height: 100%;
+  width: 100%;
   color: #FFFFFF;
   background-image: url("../img/mountain_reflection.jpg");
   background-color: #273045;
@@ -11,8 +13,42 @@ body {
   background-attachment: fixed;
 }
 
+main {
+  height: 100%;
+}
+
+nav {
+  z-index: 100;
+  position: fixed;
+  height: 5.5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+nav h3 {
+  font-family: 'Ovo', serif;
+}
+
+nav h3, nav h4 {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+nav ul li {
+  margin: 1% 2% 0 2%;
+  float: right;
+  display: inline-block;
+}
+
 header {
-  height: 38%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -28,15 +64,11 @@ h1 {
   font-variant: small-caps;
 }
 
-h4 {
-  font-family: 'Ovo', serif;
-}
-
 a {
   text-decoration: none;
 }
 
-main {
+article {
   height: 54%;
 }
 
