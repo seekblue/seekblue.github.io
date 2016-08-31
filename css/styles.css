@@ -20,18 +20,18 @@ main {
 nav {
   z-index: 100;
   position: fixed;
-  height: 5.5rem;
+  height: 4rem;
   width: 100%;
   top: 0;
   left: 0;
   background-color: black;
 }
 
-nav h3 {
+nav h5 {
   font-family: 'Ovo', serif;
 }
 
-nav h3, nav h4 {
+nav h5, nav h6 {
   display: inline-block;
 }
 
@@ -49,6 +49,7 @@ nav ul li {
 
 header {
   margin-top: 10%;
+  /*height: 28%;*/
   height: 18%;
   display: flex;
   flex-direction: column;
